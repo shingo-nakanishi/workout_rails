@@ -453,7 +453,7 @@ class JbuilderTest < ActiveSupport::TestCase
 
   test 'dynamically set a key/nested child with block' do
     result = jbuild do |json|
-      json.set! :author do
+      json.set! :authors do
         json.name 'David'
         json.age 32
       end
