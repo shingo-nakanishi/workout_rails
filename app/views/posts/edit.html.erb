@@ -1,0 +1,13 @@
+<%= form_for @post do |f| %>
+    <%= f.label :description %><%= f.text_field :description %>
+        <%= f.fields_for :post_categories do |pc| -%>
+            <%= pc.collection_select :post_category_id,
+                                     PostCategoryMaster.all,
+                                     :id,
+                                     :name,
+                                     multiple: true,
+                                     include_blank: 'none',
+                                     prompt: 'please select' %>
+    <% end -%>
+    <%= f.submit %>
+<% end -%>
