@@ -1,4 +1,4 @@
-/Users/shingonakanishi/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20151024-16705-dehh3m.rb extconf.rb
+/Users/shingonakanishi/.rvm/rubies/ruby-2.2.3/bin/ruby -r ./siteconf20151025-40571-r62399.rb extconf.rb
 checking if the C compiler accepts ... yes
 checking if the C compiler accepts -Wno-error=unused-command-line-argument-hard-error-in-future... no
 Building nokogiri using packaged libraries.
@@ -29,15 +29,15 @@ If you are using Bundler, tell it to use the option:
 Note, however, that nokogiri is not fully compatible with arbitrary
 versions of libxml2 provided by OS/package vendors.
 ************************************************************************
-Extracting libxml2-2.9.2.tar.gz into tmp/x86_64-apple-darwin14.1.0/ports/libxml2/2.9.2... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxml2/0001-Revert-Missing-initialization-for-the-catalog-module.patch...
+Extracting libxml2-2.9.2.tar.gz into tmp/x86_64-apple-darwin14.5.0/ports/libxml2/2.9.2... OK
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxml2/0001-Revert-Missing-initialization-for-the-catalog-module.patch...
 Running 'patch' for libxml2 2.9.2... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxml2/0002-Fix-missing-entities-after-CVE-2014-3660-fix.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxml2/0002-Fix-missing-entities-after-CVE-2014-3660-fix.patch...
 Running 'patch' for libxml2 2.9.2... OK
 Running 'configure' for libxml2 2.9.2... OK
 Running 'compile' for libxml2 2.9.2... OK
 Running 'install' for libxml2 2.9.2... OK
-Activating libxml2 2.9.2 (from /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/x86_64-apple-darwin14.1.0/libxml2/2.9.2)...
+Activating libxml2 2.9.2 (from /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/x86_64-apple-darwin14.5.0/libxml2/2.9.2)...
 ************************************************************************
 IMPORTANT NOTICE:
 
@@ -70,35 +70,35 @@ If you are using Bundler, tell it to use the option:
     bundle config build.nokogiri --use-system-libraries
     bundle install
 ************************************************************************
-Extracting libxslt-1.1.28.tar.gz into tmp/x86_64-apple-darwin14.1.0/ports/libxslt/1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0001-Adding-doc-update-related-to-1.1.28.patch...
+Extracting libxslt-1.1.28.tar.gz into tmp/x86_64-apple-darwin14.5.0/ports/libxslt/1.1.28... OK
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0001-Adding-doc-update-related-to-1.1.28.patch...
 Running 'patch' for libxslt 1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0002-Fix-a-couple-of-places-where-f-printf-parameters-wer.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0002-Fix-a-couple-of-places-where-f-printf-parameters-wer.patch...
 Running 'patch' for libxslt 1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0003-Initialize-pseudo-random-number-generator-with-curre.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0003-Initialize-pseudo-random-number-generator-with-curre.patch...
 Running 'patch' for libxslt 1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0004-EXSLT-function-str-replace-is-broken-as-is.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0004-EXSLT-function-str-replace-is-broken-as-is.patch...
 Running 'patch' for libxslt 1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0006-Fix-str-padding-to-work-with-UTF-8-strings.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0006-Fix-str-padding-to-work-with-UTF-8-strings.patch...
 Running 'patch' for libxslt 1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0007-Separate-function-for-predicate-matching-in-patterns.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0007-Separate-function-for-predicate-matching-in-patterns.patch...
 Running 'patch' for libxslt 1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0008-Fix-direct-pattern-matching.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0008-Fix-direct-pattern-matching.patch...
 Running 'patch' for libxslt 1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0009-Fix-certain-patterns-with-predicates.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0009-Fix-certain-patterns-with-predicates.patch...
 Running 'patch' for libxslt 1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0010-Fix-handling-of-UTF-8-strings-in-EXSLT-crypto-module.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0010-Fix-handling-of-UTF-8-strings-in-EXSLT-crypto-module.patch...
 Running 'patch' for libxslt 1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0013-Memory-leak-in-xsltCompileIdKeyPattern-error-path.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0013-Memory-leak-in-xsltCompileIdKeyPattern-error-path.patch...
 Running 'patch' for libxslt 1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0014-Fix-for-bug-436589.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0014-Fix-for-bug-436589.patch...
 Running 'patch' for libxslt 1.1.28... OK
-Running patch with /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0015-Fix-mkdir-for-mingw.patch...
+Running patch with /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/patches/libxslt/0015-Fix-mkdir-for-mingw.patch...
 Running 'patch' for libxslt 1.1.28... OK
 Running 'configure' for libxslt 1.1.28... OK
 Running 'compile' for libxslt 1.1.28... OK
 Running 'install' for libxslt 1.1.28... OK
-Activating libxslt 1.1.28 (from /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/x86_64-apple-darwin14.1.0/libxslt/1.1.28)...
+Activating libxslt 1.1.28 (from /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports/x86_64-apple-darwin14.5.0/libxslt/1.1.28)...
 checking for main() in -llzma... yes
 checking for xmlParseDoc() in libxml/parser.h... yes
 checking for xsltParseStylesheetDoc() in libxslt/xslt.h... yes
@@ -120,7 +120,7 @@ compiling html_element_description.c
 html_element_description.c:252:48: warning: cast from 'const struct _htmlElemDesc *' to 'void *' drops const qualifier [-Wcast-qual]
   return Data_Wrap_Struct(klass, 0, 0, (void *)description);
                                                ^
-/Users/shingonakanishi/.rvm/rubies/ruby-2.2.1/include/ruby-2.2.0/ruby/ruby.h:1028:35: note: expanded from macro 'Data_Wrap_Struct'
+/Users/shingonakanishi/.rvm/rubies/ruby-2.2.3/include/ruby-2.2.0/ruby/ruby.h:1028:35: note: expanded from macro 'Data_Wrap_Struct'
     rb_data_object_alloc((klass),(sval),(RUBY_DATA_FUNC)(mark),(RUBY_DATA_FUNC)(free))
                                   ^
 1 warning generated.
@@ -186,28 +186,28 @@ compiling xslt_stylesheet.c
 xslt_stylesheet.c:217:21: warning: incompatible pointer to integer conversion passing 'void *' to parameter of type 'VALUE' (aka 'unsigned long') [-Wint-conversion]
     Data_Get_Struct(ctxt->style->_private, nokogiriXsltStylesheetTuple,
                     ^~~~~~~~~~~~~~~~~~~~~
-/Users/shingonakanishi/.rvm/rubies/ruby-2.2.1/include/ruby-2.2.0/ruby/ruby.h:1044:41: note: expanded from macro 'Data_Get_Struct'
+/Users/shingonakanishi/.rvm/rubies/ruby-2.2.3/include/ruby-2.2.0/ruby/ruby.h:1044:41: note: expanded from macro 'Data_Get_Struct'
     ((sval) = (type*)rb_data_object_get(obj))
                                         ^
-/Users/shingonakanishi/.rvm/rubies/ruby-2.2.1/include/ruby-2.2.0/ruby/ruby.h:1189:26: note: passing argument to parameter 'obj' here
+/Users/shingonakanishi/.rvm/rubies/ruby-2.2.3/include/ruby-2.2.0/ruby/ruby.h:1189:26: note: passing argument to parameter 'obj' here
 rb_data_object_get(VALUE obj)
                          ^
 xslt_stylesheet.c:230:21: warning: incompatible pointer to integer conversion passing 'void *' to parameter of type 'VALUE' (aka 'unsigned long') [-Wint-conversion]
     Data_Get_Struct(ctxt->style->_private, nokogiriXsltStylesheetTuple,
                     ^~~~~~~~~~~~~~~~~~~~~
-/Users/shingonakanishi/.rvm/rubies/ruby-2.2.1/include/ruby-2.2.0/ruby/ruby.h:1044:41: note: expanded from macro 'Data_Get_Struct'
+/Users/shingonakanishi/.rvm/rubies/ruby-2.2.3/include/ruby-2.2.0/ruby/ruby.h:1044:41: note: expanded from macro 'Data_Get_Struct'
     ((sval) = (type*)rb_data_object_get(obj))
                                         ^
-/Users/shingonakanishi/.rvm/rubies/ruby-2.2.1/include/ruby-2.2.0/ruby/ruby.h:1189:26: note: passing argument to parameter 'obj' here
+/Users/shingonakanishi/.rvm/rubies/ruby-2.2.3/include/ruby-2.2.0/ruby/ruby.h:1189:26: note: passing argument to parameter 'obj' here
 rb_data_object_get(VALUE obj)
                          ^
 2 warnings generated.
 linking shared-object nokogiri/nokogiri.bundle
 ld: warning: directory not found for option '-L/Users/haven/.sm/pkg/active/lib'
 Cleaning files only used during build.
-rm -rf /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ext/nokogiri/tmp/x86_64-apple-darwin14.1.0/ports
-rmdir -p /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ext/nokogiri/tmp/x86_64-apple-darwin14.1.0
-rm -rf /Users/shingonakanishi/Documents/so/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports
+rm -rf /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ext/nokogiri/tmp/x86_64-apple-darwin14.5.0/ports
+rmdir -p /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ext/nokogiri/tmp/x86_64-apple-darwin14.5.0
+rm -rf /Users/shingonakanishi/Documents/workout_rails/vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports
 
 make "DESTDIR=" install
-/usr/bin/install -m 0755 nokogiri.bundle ./.gem.20151024-16705-n1snbf/nokogiri
+/usr/bin/install -m 0755 nokogiri.bundle ./.gem.20151025-40571-c4773r/nokogiri
