@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
-  def show
+  def new
     @post = Post.new
+    @post.post_categories.build
   end
 
   def create
@@ -12,6 +13,9 @@ class PostsController < ApplicationController
 
   def edit
     @post = Post.find(params[:id])
+    unless @post.post_categories.present?
+      @post.post_categories.build
+    end
   end
 
   def update
