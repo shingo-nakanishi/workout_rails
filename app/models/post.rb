@@ -7,6 +7,9 @@ class Post < ActiveRecord::Base
   private
 
   def is_reject(attributes)
-    attributes[:post_category_id].blank?
+    is_exist = attributes[:id].present?
+    is_empty = attributes[:post_category_id].blank?
+    attributes.merge!(_destroy: 1) if is_exist and is_empty
+    !is_exist and is_empty
   end
 end
