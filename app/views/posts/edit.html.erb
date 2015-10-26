@@ -1,5 +1,6 @@
 <%= form_for @post do |f| %>
     <%= f.label :description %><%= f.text_field :description %>
+    <% if @post.post_categories.count > 0 %>
         <%= f.fields_for :post_categories do |pc| -%>
             <%= pc.collection_select :post_category_id,
                                      PostCategoryMaster.all,
@@ -8,6 +9,17 @@
                                      multiple: true,
                                      include_blank: 'none',
                                      prompt: 'please select' %>
-    <% end -%>
+        <% end -%>
+    <% else %>
+        <%= f.fields_for :post_categories, @post.post_categories.build do |pc| %>
+            <%= pc.label :post_category_id %>
+            <%= pc.collection_select :post_category_id,
+                                     PostCategoryMaster.all,
+                                     :id,
+                                     :name,
+                                     multiple: true,
+                                     prompt: 'please select' %>
+        <% end %>
+    <% end %>
     <%= f.submit %>
 <% end -%>

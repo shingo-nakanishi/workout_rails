@@ -16,6 +16,7 @@ class PostsController < ApplicationController
 
   def update
     @post = Post.find(params[:id])
+
     ActiveRecord::Base.transaction do
       @post.update!(update_params)
     end
